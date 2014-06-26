@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="Maven: com.thinkaurelius.titan:titan-core:0.4.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/thinkaurelius/titan/titan-core/0.4.4/titan-core-0.4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/thinkaurelius/titan/titan-core/0.4.4/titan-core-0.4.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/thinkaurelius/titan/titan-core/0.4.4/titan-core-0.4.4-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-es/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-es/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-core/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-dist/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-dist/titan-dist-all/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-dist/titan-dist-cassandra/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-dist/titan-dist-persistit/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-dist/titan-dist-berkeleyje/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-test/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-test/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-hbase/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-hbase/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-lucene/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-lucene/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-rexster/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-cassandra/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-cassandra/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-persistit/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-persistit/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-berkeleyje/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../titan/titan-berkeleyje/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

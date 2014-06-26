@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: mmseg4j:mmseg4j-all-with-dic:1.9.0-fix">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/mmseg4j/mmseg4j-all-with-dic/1.9.0-fix/mmseg4j-all-with-dic-1.9.0-fix.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/mmseg4j/mmseg4j-all-with-dic/1.9.0-fix/mmseg4j-all-with-dic-1.9.0-fix-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/mmseg4j/mmseg4j-all-with-dic/1.9.0-fix/mmseg4j-all-with-dic-1.9.0-fix-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

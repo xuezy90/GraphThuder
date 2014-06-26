@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.hbase:hbase:0.94.11-transwarp">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase/0.94.11-transwarp/hbase-0.94.11-transwarp.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase/0.94.11-transwarp/hbase-0.94.11-transwarp-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase/0.94.11-transwarp/hbase-0.94.11-transwarp-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-it/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/dev-support/jenkins-tools/buildstats/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-shell/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-client/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-client/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-common/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-common/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-common/target/generated-sources/java/org/apache/hadoop/hbase" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-server/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-server/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-server/target/generated-jamon" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-server/target/generated-sources/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-thrift/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-thrift/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-thrift/target/generated-sources/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-examples/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-examples/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-protocol/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-prefix-tree/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-prefix-tree/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-hadoop-compat/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-hadoop-compat/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-hadoop1-compat/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-hadoop1-compat/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-hadoop2-compat/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../hbase/hbase-hadoop2-compat/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

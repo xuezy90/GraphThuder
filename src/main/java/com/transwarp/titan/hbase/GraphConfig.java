@@ -1,18 +1,12 @@
 package com.transwarp.titan.hbase;
 
-import com.thinkaurelius.titan.core.TitanFactory;
-import com.thinkaurelius.titan.core.TitanGraph;
-import com.thinkaurelius.titan.example.GraphOfTheGodsFactory;
+
 import com.thinkaurelius.titan.graphdb.configuration.GraphDatabaseConfiguration;
 import org.apache.commons.configuration.BaseConfiguration;
 import org.apache.commons.configuration.Configuration;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import java.io.File;
-
-import static com.thinkaurelius.titan.graphdb.configuration.GraphDatabaseConfiguration.INDEX_BACKEND_KEY;
-import static com.thinkaurelius.titan.graphdb.configuration.GraphDatabaseConfiguration.STORAGE_DIRECTORY_KEY;
 
 /**
  * Created by Intellij IDEA.
@@ -32,8 +26,13 @@ public class GraphConfig {
         Configuration storage = config.subset(GraphDatabaseConfiguration.STORAGE_NAMESPACE);
         // configuring local backend
         storage.setProperty(GraphDatabaseConfiguration.STORAGE_BACKEND_KEY, "hbase");
-//        storage.setProperty(GraphDatabaseConfiguration.,"titan_transwarp_test");
+        storage.setProperty("hbase.tablename","titan_transwarp_test");
         storage.setProperty(GraphDatabaseConfiguration.HOSTNAME_KEY,"tw-31,transwarp-tmp2");
+        storage.setProperty(GraphDatabaseConfiguration.METRICS_ENABLED,"true");
+        storage.setProperty(GraphDatabaseConfiguration.BASIC_METRICS,"true");
+        storage.setProperty(GraphDatabaseConfiguration.METRICS_CONSOLE_INTERVAL_KEY,"100");
+        storage.setProperty(GraphDatabaseConfiguration.METRICS_CSV_INTERVAL_KEY,"100");
+        storage.setProperty(GraphDatabaseConfiguration.METRICS_CSV_DIR_KEY,"/home/xue/titanTest");
 //        storage.setProperty(GraphDatabaseConfiguration.STORAGE_DIRECTORY_KEY,dir);
 //        // configuring elastic search index
 //        Configuration index = storage.subset(GraphDatabaseConfiguration.INDEX_NAMESPACE).subset(INDEX_NAME);
